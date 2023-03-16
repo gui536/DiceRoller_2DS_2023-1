@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             //gera uma Toast na tela informado que rolamos um dado.
             val toast = Toast.makeText(this, "Rolou um dado!", Toast.LENGTH_SHORT)
             val resultText: TextView = findViewById(R.id.txtRollResult)
-            resultText.text = "6"
+            resultText.text = "1"
         }
     }
 
